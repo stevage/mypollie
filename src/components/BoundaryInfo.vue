@@ -34,7 +34,7 @@
             },
             representative() {
                 if (window.BoundaryType.current === 'federal' && this.boundary) {
-                    const rep = fedreps.find(rep => rep.constituency.match(new RegExp(this.boundary.name, 'i')));
+                    const rep = fedreps.find(rep => rep.constituency.toLowerCase() === this.boundary.name.toLowerCase());
                     return rep;
                 }
             }
