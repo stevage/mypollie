@@ -74,8 +74,6 @@ html, body {
 #map-container {
     flex-grow:1;
     flex-basis:400px;
-    position:relative;
-    height:100%;
 }
 
 #sidebar {

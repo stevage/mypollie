@@ -98,13 +98,13 @@
 <style scoped>
 #super-container {
     height: 100%;
+    width:100%;
     position:relative;
 }
 #map-div {
     width: 100%;
     height: 100%;
     background:grey;
-    /* position:relative; */
     position:absolute;
 }
 #crosshair {
