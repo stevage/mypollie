@@ -77,7 +77,7 @@ html, body {
 }
 
 #sidebar {
-    flex-basis: 200px; /* Horizontally */
+    flex-basis: 300px; /* Horizontally */
     border-right: 1px solid lightgrey;
 }
 
